@@ -1,0 +1,35 @@
+cmake_minimum_required(VERSION 3.6.0)
+
+project(OneWeekRaytracing LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_COMPILER "g++")
+
+set(SRCS
+    ./src/main.cpp
+
+    ./include/vec3.h
+    ./src/vec3.cpp
+
+    ./include/ray.h
+    ./src/ray.cpp
+
+    ./include/color.h
+    ./src/color.cpp
+
+    ./include/hittable.h
+    ./src/hittable.cpp
+
+    ./include/common.h
+
+    ./include/interval.h
+    ./src/interval.cpp
+
+    ./include/camera.h
+    ./src/camera.cpp
+
+    ./include/material.h
+    ./src/material.cpp
+)
+
+add_executable(main ${SRCS})
+set(CMAKE_BUILD_TYPE "Release")

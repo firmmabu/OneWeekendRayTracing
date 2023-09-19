@@ -1,0 +1,3 @@
+F:/OneWeekendRayTracing/build/CMakeFiles/main.dir
+F:/OneWeekendRayTracing/build/CMakeFiles/edit_cache.dir
+F:/OneWeekendRayTracing/build/CMakeFiles/rebuild_cache.dir
